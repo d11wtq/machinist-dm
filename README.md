@@ -1,12 +1,10 @@
 # DataMapper Support for Machinist 2
 
-Homepage: https://github.com/d11wtq/machinist-dm
-
 This gem provides the needed blueprint and lathe for using Machinist 2 in
 DataMapper projects.  For details about Machinist, you should refer to the main
 project on github:
 
-  - [Machinist Project](https://github.com/notahat/machinist)
+  - https://github.com/notahat/machinist
 
 ## Installation
 
