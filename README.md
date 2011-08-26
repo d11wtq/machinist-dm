@@ -1,4 +1,4 @@
-= DataMapper Support for Machinist 2
+# DataMapper Support for Machinist 2
 
 Homepage: https://github.com/d11wtq/machinist-dm
 
@@ -8,13 +8,13 @@ project on github:
 
   - [Machinist Project](https://github.com/notahat/machinist)
 
-== Installation
+## Installation
 
 Via rubygems:
 
     gem install machinist-dm
 
-== Usage
+## Usage
 
 If you're using Bundler, machinist-dm should be automatically included.  To
 include it explicitly:
@@ -24,12 +24,12 @@ include it explicitly:
 Once it's included, usage is exactly the same as documented in the main
 Machinist project.
 
-== Credits
+## Credits
 
   - [Pete Yandell, Machinist Author](https://github.com/notahat)
   - [Emmanuel Gomez, Contributo](https://github.com/emmanuel)
 
-== Issues
+## Issues
 
 Please file issues in the Bug Tracker:
 
