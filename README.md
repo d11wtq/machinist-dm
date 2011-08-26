@@ -25,7 +25,7 @@ Machinist project.
 ## Credits
 
   - [Pete Yandell, Machinist Author](https://github.com/notahat)
-  - [Emmanuel Gomez, Contributo](https://github.com/emmanuel)
+  - [Emmanuel Gomez, Contributor](https://github.com/emmanuel)
 
 ## Issues
 
