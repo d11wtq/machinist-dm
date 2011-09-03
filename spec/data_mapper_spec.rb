@@ -5,6 +5,7 @@ describe Machinist::DataMapper do
   DM = DataMapperEnvironment
 
   before(:each) do
+    ::DataMapper::Model.raise_on_save_failure = false
     DataMapperEnvironment.empty_database!
   end
 
@@ -29,6 +30,13 @@ describe Machinist::DataMapper do
       DM::User.blueprint { }
       expect { DM::User.make!(:username => "") }.to
         raise_error(DataMapper::SaveFailureError)
+    end
+
+    it "should restore #raise_on_save_failure to the default setting" do
+      ::DataMapper::Model.raise_on_save_failure = false
+      DM::User.blueprint { }
+      user = DM::User.make!(:username => "Bob")
+      user.raise_on_save_failure.should be_false
     end
   end
   
